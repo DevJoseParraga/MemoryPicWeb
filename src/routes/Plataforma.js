@@ -104,7 +104,7 @@ function Plataforma() {
               </div>
             </section>
             <section className='fotosSection'>
-            <div className='fotosContainer1'>
+                 <div className='fotosContainer1'>
                 <img className='fotosImg1 fotos' src='./DSC_0111.jpg'></img>
                 <img className='fotosImg1 fotos' src='./DSC_0123.jpg'></img>
                 <img className='fotosImg1 fotos' src='./_DSC3430.jpg'></img>
@@ -116,7 +116,7 @@ function Plataforma() {
               </div>
               <div className='fotosContainer3'>
                 <img className='fotosImg3 fotos' src='./DSC_0123.jpg'></img>
-                <img className='fotosImg3 fotos' src='./DSC_0123.jpg'></img>
+                <img className='fotosImg3 fotos' src='./DSC_0111.jpg'></img>
                 <img className='fotosImg3 fotos' src='./IMG_0834.jpg'></img>
               </div>
             </section>
