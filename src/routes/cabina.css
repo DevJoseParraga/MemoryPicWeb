@@ -126,7 +126,7 @@
 
 .reservaDesc{
     width: 70%;
-    color: white;
+    color: rgb(197, 184, 184);
     font-size: 30px;
     text-align: center;
     margin-bottom: 2em;
@@ -160,14 +160,14 @@
     color: #009FE3;
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
     #cabinaTitle{
         font-size: 40px;
         margin-top: 150px;
         margin-left: 50px !important;
     }
     .CabinaValoracionesSubTitle {
-        width: 90%;
+        width: 90% !important;
         font-size: 40px;
         margin-top: 0;
     }
@@ -197,6 +197,68 @@
         font-size: 18px;
     }
 
+    .CabinaValoracionesCarruselContainer{
+        margin-top: 5em;
+    }
+
+    .resevaTitle {
+        font-size: 75px;
+    }
+
+    .reservaDesc {
+        font-size: 18px;
+        margin-bottom: 1em;
+        margin-top: 0.5em;
+    }
+
+    .fotos {
+        margin: 1em;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1440px) {
+  
+    #cabinaTitle{
+        font-size: 60px;
+        margin-top: 150px;
+        margin-left: 10% !important;
+    }
+    .CabinaValoracionesSubTitle {
+        width: 90%;
+        font-size: 40px;
+        margin-top: 0;
+    }
+
+    .CabinaSubtitle{
+        font-size: 40px;
+        margin-top: 80px;
+    }
+    .CabinaValoracionesSubTitleContainer {
+        margin-top: 3em;
+    }
+ 
+    .cabinaDescription{
+        width: 100%;
+        display: flex;
+        margin-left: 10%;
+    } 
+    .cabinaDescriptionImgContainer {
+        width: 50%;
+        margin-left: 0;
+        margin-top: 5em;
+    }
+    .cabinaDescriptionUlContainer{
+        width: 100% !important;
+    }
+    .cabinaDescriptionLi {
+        font-size: 18px;
+    }
+    .CabinaValoracionesSubTitle{
+        border-bottom: #009FE3 solid 4px;
+        width: 45%;
+        text-align: center;
+       
+    }
     .CabinaValoracionesCarruselContainer{
         margin-top: 5em;
     }

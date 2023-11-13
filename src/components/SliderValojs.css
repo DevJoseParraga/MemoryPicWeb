@@ -133,14 +133,9 @@
   margin-left: 10px; /* Cambio resaltado */
 }
 
-.prevArrow{
-    margin-left: 6em;
+.prevArrow,.nextArrow{
+   display: none;
 }
-
-.nextArrow{
-    margin-right: 6em;
-}
-
 .cardImg{
     width: 6em;
 }
@@ -157,9 +152,9 @@
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px){
   .cards-container {
-      flex-direction: column;
+      flex-direction: column !important;
       align-items: stretch;
   }
 
@@ -184,3 +179,32 @@
       font-size: 16px;
   }
 }
+
+@media only screen and (max-width: 1440px){
+  .cards-container {
+      flex-direction: row;
+      justify-content: space-around;
+  }
+
+  .carta {
+      width: 100%;
+      margin: 10px 0;
+  }
+
+  .cardDesc {
+      width: 100%;
+  }
+
+  .prevArrow,
+  .nextArrow {
+    display: none;
+      margin: 0;
+  }
+  .slider-container{
+    margin: 0;
+  }
+  .slider-btn {
+      font-size: 16px;
+  }
+}
+

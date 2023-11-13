@@ -105,7 +105,7 @@ function Plataforma() {
             </section>
             <section className='fotosSection'>
               <div className='fotosContainer1'>
-                <img className='fotosImg1 fotos' src='./Galeria 1.webp'></img>
+                <img className='fotosImg1 fotos' src='./DSC_0111.jpg'></img>
                 <img className='fotosImg1 fotos' src='./Galeria 2.jpeg'></img>
                 <img className='fotosImg1 fotos' src='./Galeria 3.jpg'></img>
               </div>
