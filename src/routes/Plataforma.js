@@ -104,20 +104,20 @@ function Plataforma() {
               </div>
             </section>
             <section className='fotosSection'>
-              <div className='fotosContainer1'>
+            <div className='fotosContainer1'>
                 <img className='fotosImg1 fotos' src='./DSC_0111.jpg'></img>
-                <img className='fotosImg1 fotos' src='./Galeria 2.jpeg'></img>
-                <img className='fotosImg1 fotos' src='./Galeria 3.jpg'></img>
+                <img className='fotosImg1 fotos' src='./DSC_0123.jpg'></img>
+                <img className='fotosImg1 fotos' src='./_DSC3430.jpg'></img>
               </div>
               <div className='fotosContainer2'>
-                <img className='fotosImg2 fotos' src='./Galeria 4.jpg'></img>
-                <img className='fotosImg2 fotos' src='./Galeria 3.jpg'></img>
-                <img className='fotosImg2 fotos' src='./Galeria 7.png'></img>
+                <img className='fotosImg2 fotos' src='./IMG_0834.jpg'></img>
+                <img className='fotosImg2 fotos' src='./IMG_3747.jpg'></img>
+                <img className='fotosImg2 fotos' src='./IMG_7481.jpg'></img>
               </div>
               <div className='fotosContainer3'>
-                <img className='fotosImg3 fotos' src='./Galeria 2.jpeg'></img>
-                <img className='fotosImg3 fotos' src='./Galeria 5.jpeg'></img>
-                <img className='fotosImg3 fotos' src='./Galeria 1.webp'></img>
+                <img className='fotosImg3 fotos' src='./DSC_0123.jpg'></img>
+                <img className='fotosImg3 fotos' src='./DSC_0123.jpg'></img>
+                <img className='fotosImg3 fotos' src='./IMG_0834.jpg'></img>
               </div>
             </section>
         </main>
