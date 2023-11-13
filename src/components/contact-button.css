@@ -1,0 +1,65 @@
+#wppContactButton{
+    position: fixed;
+    right: 3%;
+    top: 86%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 217px;
+    background-color: black;
+    border-radius: 15px 15px 15px 15px;
+    border: 2px solid #00CEF9;
+    text-decoration: none;
+    z-index: 999;
+}
+
+#wppContactButton span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-style: normal;
+    font-size: 23px;
+    margin-left: 10px;
+    /* color: #00CEF9; */
+}
+
+#wppContactButton:hover{
+    box-shadow: 0 0 5px #00CEF9, 0 0 2px inset white;
+}
+
+@media(max-width:1661px){
+    #wppContactButton{
+        right: 1%;
+    }
+    
+}
+@media(max-width:1441px){
+    #wppContactButton{
+        right: 1%;
+    }
+    
+}
+@media(max-width:667px){
+    #wppContactButton{
+        right: 1%;
+    }
+    
+    #wppContactButton{
+        top: 92%;
+        right: 3%;
+        height: 40px;
+        width: 150px;
+        border: 2px solid #00CEF9;
+    }
+    
+    #wppContactButton span{
+        font-size: 16px;
+        margin-left: 6px;
+    }
+
+    #wppContactButton img{
+        height: 30px;
+        width: 31px;
+    }
+}

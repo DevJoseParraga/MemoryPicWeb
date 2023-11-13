@@ -1,0 +1,244 @@
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+#footerInfo {
+    display: flex;
+    background-color: black;
+    height: 467px;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 150px;
+}
+
+#footerNavBar {
+    display: flex;
+    align-items: flex-start;
+}
+
+#footerNavBar section{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    align-items: flex-start;
+}
+
+#footerNavBar section h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    color: #009FE3;
+}
+
+#footerNavBar section h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    /* margin-top: 0px; */
+    /* margin-bottom: 33px; */
+}
+#footerMenu h4{
+    margin-bottom: 33px;
+    margin-top: 0px;
+}
+
+#footerNavBar a{
+    text-decoration: none;
+    position: relative;
+}
+
+#footerMenu a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 26px;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#footerMenu a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+#footerContacto a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: -5px;
+    left: 21px;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#footerContacto a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#footerContacto span{
+    display: flex;
+    align-items: center;
+    margin-bottom: 21px;
+}
+#footerContacto h4{
+    margin-left: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#footerNavBar section {
+    margin-left: 10em;
+}
+
+
+#smallLogoFooterLink{
+    display: none;
+}
+@media (max-width: 1661px) {  
+    #logoFooter{
+        width: 350px;
+        height: 143px;
+    }  
+
+    #footerNavbar section{
+        margin-left: 5em;
+    }
+}
+@media (max-width: 1441px) {  
+    #logoFooter{
+        width: 300px;
+        height: 109px;
+    }  
+    #footerInfo {
+        height: 350px;
+        padding-inline: 80px;
+    }
+
+    #footerNavBar section h3 {
+        font-size: 25px;
+    }
+    
+    #footerNavBar section h4 {
+        font-size: 20px;
+    }
+
+    #footerMenu a:after {
+        bottom: 16px;
+    }
+
+    #footerMenu h4{
+        margin-bottom: 18px;
+    }
+    
+    #footerContacto span {
+        margin-bottom: 12px;
+    }
+        
+    #footerContacto h4{
+        margin-left: 12px;
+    }
+    
+    #fbFooter,#igFooter,#wppFooter{
+        width: 35px;
+        height: 35px;
+    }
+    #mailFooter{
+        width: 35px;
+        height: 26px;
+    }
+    #footerNavBar section {
+        margin-left: 6em;
+    }    
+    #footerContacto a:after {
+        left: 13px;
+        bottom: -2px;
+    }
+}
+@media (max-width: 667px) {  
+    #logoFooter2{
+        width: 106px;
+        height: 94px;
+    }  
+    #footerInfo {
+        height: 450px;
+        padding-inline: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #smallLogoFooterLink{
+        display: flex;
+    }
+    #bigLogoFooterLink{
+        display: none;
+    }
+
+    #footerNavBar section h3 {
+        font-size: 18px;
+    }
+
+    #footerNavBar section h4 {
+        font-size: 14px;
+    }
+    #footerMenu{
+        order: 2;
+    }
+
+    #footerNavBar {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    #footerMenu a:after {
+        bottom: 16px;
+    }
+
+    #footerMenu h4{
+        margin-bottom: 18px;
+    }
+
+    #footerContacto{
+        order: 1;
+    }
+    #footerContacto span {
+        margin-bottom: 19px;
+    }
+        
+    #footerContacto h4{
+        margin-left: 12px;
+    }
+    
+    #fbFooter,#igFooter,#wppFooter{
+        width: 25px;
+        height: 25px;
+    }
+
+    #mailFooter {
+        width: 25px;
+        height: 19px;
+    }
+    #footerNavBar section {
+        margin-right: 0em;
+        margin-left: 0;
+    }    
+    #footerContacto a:after {
+        left: 13px;
+        bottom: -2px;
+    }
+}

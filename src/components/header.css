@@ -1,0 +1,120 @@
+#headerPic{
+    background-size: cover !important;
+}
+
+#subtittle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0px;
+}
+
+#memoria{
+    color: #009FE3;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    height: 878px;
+    width: 100%;
+}
+#title {
+    color: white;
+    font-family: 'CocogoosePro';
+    font-size: 85px;
+    align-self: center;
+    margin-top: 235px;
+    margin-bottom: 0px;
+    align-self: center;
+
+}
+#sectionTitle {
+    color: white;
+    font-family: 'CocogoosePro';
+    font-size: 85px;
+    align-self: center;
+    margin-top: 235px;
+    margin-bottom: 0px;
+    align-self: center;
+
+}
+@media (max-width: 1661px) {
+    #title {
+        font-size: 75px;
+        margin-top: 230px;
+        margin-bottom: 20px;
+    }
+
+    #subtittle{
+        margin-top: 0px;
+        padding-inline: 120px;
+        align-self: center;
+        font-size: 30px;
+    }
+
+    header {
+        height: 750px;
+    }
+}
+
+@media (max-width: 1441px) {
+    #sectionTitle {
+        font-size: 60px;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    #title {
+        font-size: 60px;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    
+    #subtittle{
+        margin-top: 0px;
+        padding-inline: 80px;
+        align-self: center;
+        font-size: 25px;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+        height: 500px;
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 667px) {
+    #title {
+        font-size: 28px;
+        padding-inline: 30px;
+        align-self: flex-start;
+    }
+    #sectionTitle {
+        font-size: 28px;
+        padding-inline: 30px;
+        align-self: center;
+        margin-top: 150px;
+    }
+
+    #subtittle{
+        font-size: 16px;
+        padding-inline: 30px;
+        text-align: left;
+        line-height: 20px;
+    }
+
+    #headerPic{
+        background-position: 92% 0% !important;
+    }
+
+}

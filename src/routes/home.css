@@ -1,0 +1,498 @@
+
+#conocenosBannerHome {
+    height: 482px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#infoSectionHome{
+    display: flex;
+    flex-direction: column;
+    background: url("../../public/home-background.png");
+    background-size: cover;
+}
+
+#conocenosBannerHome h2 {
+    font-family: 'CocogoosePro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 79px;
+    /* or 79px */
+    text-align: center;
+    margin-bottom: 64px;
+    color: #009FE3;
+}
+
+#conocenosBannerHome p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 124.02%;
+    /* or 32px */
+    text-align: center;
+    color: #FFFFFF;
+    width: 1616px;
+    margin-top: 0px;
+    margin-bottom: 64px;
+}
+
+#contactanosBannerHome h2 {
+    font-family: 'CocogoosePro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 78px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-block: 0px;
+}
+
+#contactanosBannerHome #button {
+    margin-block: 0px;
+}
+
+#contactanosBannerHome p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 38px;
+    text-align: center;
+    color: #D0CECE;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+#serviciosExtra {
+    align-items: center;
+    padding-inline: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    row-gap: 72px;
+    column-gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 180px;
+}
+
+#serviciosExtra section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#serviciosExtra section h3 {
+    font-family: 'CocogoosePro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 51px;
+    color: white;
+    color: #009FE3;
+    margin-bottom: 13px;
+}
+
+#serviciosExtra p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    width: 360px;
+    margin-top: 0;
+    margin-bottom: 36px;
+}
+
+
+
+#contactanosBannerHome {
+    height: 529px;
+    background: rgba(23, 61, 77, 0.35);
+    /* filter: blur(2px);
+    backdrop-filter: blur(2px); */
+    /* Note: backdrop-filter has minimal browser support */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeTitle {
+    font-family: 'CocogoosePro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 143.52%;
+    /* identical to box height, or 79px */
+    margin-block: 112px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.nuestrosServiciosTitle{
+    font-family: 'CocogoosePro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 53px;
+    text-align: center;
+    width: 397px;
+    color: #ffffff;
+}
+
+#servicios{
+    padding-inline: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+#servicios aside p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 120.52%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 440px;
+}
+
+#servicios aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicioExtraContainer {
+    width: 450px;
+    height: 205px;
+    /* border: 2px solid #009FE3; */
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.alignmentBox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#antifazBlanco,#photoBooth,#polaroid {
+    height: 300px;
+    width: 300px;
+}
+@media (max-width: 1661px) {
+    #servicios{
+        padding-inline: 120px;
+        margin-bottom: 100px;
+    }
+
+    .homeTitle {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        /* font-size: 35px; */
+    }
+
+    .nuestrosServiciosTitle{
+        width: 340px;
+    }
+
+    #servicios aside p{
+        font-size: 22px;
+        width: 385px;
+    }
+
+    #conocenosBannerHome h2{
+        margin-bottom: 20px;
+    }
+    #conocenosBannerHome p{
+        width: auto
+    }
+    #conocenosBannerHome{
+        height: 430px;
+        padding-inline: 120px;
+    }
+
+    #contactanosBannerHome{
+        height: 430px;
+    }
+
+    #contactanosBannerHome h2 {
+        font-size: 50px;
+        width: auto;
+        margin-inline: 120px;
+        margin-bottom: 10px;
+    }
+    
+    #contactanosBannerHome #button {
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }
+    
+    #contactanosBannerHome p {
+        font-size: 25px;
+        margin-top: 0px;
+        margin-bottom: 60px;
+    }
+
+    #serviciosExtra {
+        padding-inline: 120px;
+        row-gap: 72px;
+        column-gap: 10px;
+        margin-bottom: 100px;
+        justify-content: space-between;
+    }
+
+    #serviciosExtra section h3 {
+        font-size: 34px;
+        width: auto;
+    }
+
+    #serviciosExtra p {
+        font-size: 18px;
+        width: 325px;
+        margin-top: 0;
+        margin-bottom: 36px;
+    }
+
+    .servicioExtraContainer {
+        width: 390px;
+        height: 189px;
+        /* border: 2px solid #009FE3; */
+    }
+
+    .alignmentBox{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+        
+}
+
+@media (max-width: 1441px) {
+    #conocenosBannerHome {
+        height: 440px;
+        padding-inline: 80px;
+    }
+
+    #conocenosBannerHome h2 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    
+    #conocenosBannerHome p {
+        font-size: 21px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        /* margin-inline: 80px; */
+        width: auto;
+    }
+    #contactanosBannerHome{
+        padding-inline: 80px;
+        height: 300px;
+    }
+    #contactanosBannerHome h2 {
+        font-size: 33px;
+        color: #FFFFFF;
+        line-height: 1.3em;
+        margin-block: 10px;
+    }
+    
+    #contactanosBannerHome #button {
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }
+    
+    #contactanosBannerHome p {
+        font-size: 25px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .homeTitle {
+        margin-top: 90px;
+        margin-bottom: 70px;
+        font-size: 35px;
+    }
+    
+    .nuestrosServiciosTitle{
+        font-size: 25px;
+        width: 340px;
+    }
+    
+    #servicios{
+        padding-inline: 80px;
+        margin-bottom: 100px;
+    }
+    
+    #servicios aside p{
+        font-size: 20px;
+        width: 350px;
+    }
+    
+    #serviciosExtra {
+        padding-inline: 80px;
+        row-gap: 72px;
+        column-gap: 10px;
+        margin-bottom: 100px;
+        justify-content: space-between;
+    }
+        
+    #serviciosExtra section h3 {
+        font-size: 23px;
+        width: auto;
+    }
+    
+    #serviciosExtra p {
+        font-size: 16px;
+        width: 294px;
+        margin-top: 0;
+        margin-bottom: 36px;
+    }
+    
+    .servicioExtraContainer {
+        width: 350px;
+        height: 170px;
+        /* border: 2px solid #009FE3; */
+        background-color: black;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .alignmentBox{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}
+
+@media(max-width: 667px) {
+    #conocenosBannerHome {
+        height: 380px;
+        padding-inline: 30px;
+    }
+
+    #conocenosBannerHome h2 {
+        font-size: 23px;
+        margin-bottom: 0px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        line-height: 25px;
+    }
+    
+    #conocenosBannerHome p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    }
+
+    #contactanosBannerHome{
+        padding-inline: 30px;
+        height: 330px;
+    }
+    #contactanosBannerHome h2 {
+        font-size: 23px;
+        line-height: 35px;
+        margin-inline: 0px;
+        margin-top: 20px;
+    }
+    
+    #contactanosBannerHome #button {
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }
+    
+    #contactanosBannerHome p {
+        font-size: 18px;
+        margin-top: 0px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        line-height: 25px;
+
+    }
+
+    .homeTitle {
+        margin-block: 50px;
+        font-size: 25px;
+    }
+    
+    .nuestrosServiciosTitle{
+        font-size: 20px;
+        width: 200px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    
+    #servicios{
+        padding-inline: 30px;
+        margin-bottom: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    #servicios aside {
+        margin-block: 40px;
+    }
+    
+    #servicios aside p{
+        font-size: 16px;
+        width: 350px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    
+    #serviciosExtra {
+        padding-inline: 30px;
+        row-gap: 30px;
+        margin-bottom: 100px;
+        justify-content: space-between;
+        flex-direction: column;
+        display: flex;
+    }
+        
+    #serviciosExtra section h3 {
+        font-size: 23px;
+        width: auto;
+    }
+    
+    #serviciosExtra p {
+        font-size: 16px;
+        width: 294px;
+        margin-top: 0;
+        margin-bottom: 36px;
+    }
+    
+    .servicioExtraContainer {
+        width: 350px;
+        height: 170px;
+        /* border: 2px solid #009FE3; */
+        background-color: black;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .alignmentBox{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #antifazBlanco,#photoBooth,#polaroid {
+        height: 200px;
+        width: 200px;
+    }
+}

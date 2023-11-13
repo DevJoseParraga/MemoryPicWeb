@@ -1,0 +1,204 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+#nosotrosContainer {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(85, 85, 85, 0) 0.43%, #0A0A0A 100%, #000000 100%), url('/public/nosotros-girl-image.jpg');
+}
+
+#logoNosotros {
+    width: 668px;
+    height: 597px;
+}
+
+#porQueMemoryPicFoto {
+    width: 668px;
+    height: 500px;
+}
+
+#quienesSomosContainer {
+    background: rgba(0, 206, 249, 0.2);
+    height: 892px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 150px;
+    align-items: center;
+}
+
+#quienesSomosContainer aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start     ;
+}
+
+.sectionTitle {
+    font-family: "CocogoosePro";
+    font-size: 55px;
+    color: #00CEF9;
+}
+
+.sectionText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+    width: 638px;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#porQueMemoryPicsContainer {
+    background: rgba(23, 61, 77, 0.62);
+    height: 892px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 150px;
+    align-items: center;
+}
+
+#porQueMemoryPicsContainer aside{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#contactanosBanner {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 150px;
+    align-items: center;
+    margin-block: 72px;
+}
+
+#contactanosBanner h2 {
+    font-family: 'CocogoosePro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 79px;
+    text-align: center;
+    color: #ffffff;
+}
+
+@media(max-width: 1661px) {
+    #logoNosotros {
+        width: 580px;
+        height: 518px;
+    }
+
+    .sectionText {
+        width: 600px;
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    #porQueMemoryPicFoto {
+        width: 550px;
+        height: 434px;
+    }
+
+    #quienesSomosContainer {
+        height: 750px;
+        padding-inline: 120px;
+
+    }
+
+    #porQueMemoryPicsContainer {
+        height: 750px;
+        padding-inline: 120px;
+    }
+}
+
+@media(max-width: 1441px) {
+    .sectionTitle {
+        font-size: 40px;
+    }
+    
+    .sectionText {
+        width: 600px;
+        font-size: 20px;
+    }
+    
+    #logoNosotros {
+        width: 500px;
+        height: 446px;
+    }
+    
+    #quienesSomosContainer {
+        height: 650px;
+        padding-inline: 80px;
+
+    }
+
+    #porQueMemoryPicsContainer {
+        height: 650px;
+        padding-inline: 80px;
+    }
+
+    #contactanosBanner {
+        padding-inline: 80px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+    #contactanosBanner h2 {
+        line-height: 1.2em;
+        font-size: 40px;
+    }
+    
+    #porQueMemoryPicFoto {
+        width: 480px;
+        height: 360px;
+    }
+}
+
+@media(max-width: 667px) {
+    .sectionTitle {
+        font-size: 23px;
+    }
+    
+    .sectionText {
+        width: auto;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
+    #logoNosotros {
+        display: none;
+    }
+    
+    #quienesSomosContainer {
+        height: 450px;
+        flex-direction: column;
+        padding-inline: 30px;
+        justify-content: center;
+    }
+
+    #porQueMemoryPicsContainer {
+        height: 450px;
+        padding-inline: 30px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #contactanosBanner {
+        padding-inline: 30px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        justify-content: center;
+        height: 150px;
+    }
+    
+    #contactanosBanner h2 {
+        line-height: 1em;
+        font-size: 18px;
+        margin-top: 0px;
+    }
+    
+    #porQueMemoryPicFoto {
+        display: none;
+    }
+}

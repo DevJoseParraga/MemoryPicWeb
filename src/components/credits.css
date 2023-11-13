@@ -1,0 +1,42 @@
+#credits {
+    height: 39px;
+    background: #050505;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#credits span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: rgba(79, 79, 79, 0.8);
+}
+
+#credits span a {
+    text-decoration: none;
+}
+
+#freepick{
+    color: rgba(87, 87, 87, 0.9);
+}
+
+#creator {
+    color: rgba(99, 99, 99);
+}
+#creator:hover {
+    color: rgb(131, 130, 130);
+}
+
+@media(max-width: 667px) {
+    #credits {
+        height: 80px;
+    }
+    #credits span{
+        font-size: 12px;
+        padding-inline: 25px;
+    }
+}

@@ -1,0 +1,136 @@
+#contactoTitle {
+    width: 1368px;
+    font-family: 'CocogoosePro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 143.52%;
+    /* or 79px */
+    text-align: center;
+    margin-block: 130px;
+    color: white;
+}
+
+#contactoContainer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contactBanner {
+    background: url('../../public/contactBanner.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 476px;
+    width: 100%;
+}
+
+#contactBanner h2 {
+    font-family: 'CocogoosePro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 78px;
+    text-align: center;
+
+    color: #E6E6E6;
+}
+
+.formSentMessage{
+    width: 1368px;
+    font-family: 'CocogoosePro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 143.52%;
+    /* or 79px */
+    margin-block: 130px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#formSentMessageContainer{
+    padding-inline: 150px;
+}
+
+@media(max-width: 1661px) {
+    #contactoTitle {
+        font-size: 50px;
+        padding-inline: 120px;
+    }
+    
+    #contactBanner{
+        height: 350px;
+    }
+
+    #contactBanner h2 {
+        font-size: 50px;
+        padding-inline: 120px;
+    }
+    
+    #formSentMessageContainer {
+        padding-inline: 120px;
+    }
+
+    .formSentMessage {
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 1441px){
+    #contactoTitle{
+        width: auto;
+        font-size: 35px;
+        padding-inline: 80px;
+        margin-block:80px;
+    }
+    #formSentMessageContainer{
+        padding-inline: 80px;
+    }
+    .formSentMessage{
+        width: auto;
+        font-size: 35px;
+        margin-block: 130px;
+    }
+
+    #contactBanner h2 {
+        font-size: 35px;
+    }
+
+    #contactBanner {
+        height: 350px;
+    }
+    
+}
+@media(max-width: 667px){
+    #contactoTitle{
+        width: auto;
+        font-size: 23px;
+        padding-inline: 30px;
+        margin-block:50px;
+    }
+
+    #formSentMessageContainer{
+        padding-inline: 30px;
+    }
+    .formSentMessage{
+        width: auto;
+        font-size: 23px;
+        margin-block: 130px;
+    }
+
+    #contactBanner h2 {
+        font-size: 23px;
+        line-height: 25px;
+        padding-inline: 30px;
+    }
+
+    #contactBanner {
+        height: 200px;
+    }
+    
+}

@@ -1,0 +1,217 @@
+
+#cabinaFoto{
+    color:  #009FE3!important;
+
+    /* #009FE3  */
+}
+
+#cabinaTitle{
+    color: white;
+    font-family: 'CocogoosePro';
+    font-size: 85px;
+    margin-top: 235px;
+    margin-bottom: 0px;
+    margin-left: 4em;
+    align-items: center;
+}
+.CabinaSubtitle, .CabinaValoracionesSubTitle{
+    color: white;
+    font-family: 'CocogoosePro';
+    font-size: 85px;
+    align-self: center;
+    margin-top: 150px;
+    margin-bottom: 0px;
+    align-self: center;
+    text-align: center;
+}
+.CabinaValoracionesSubTitleContainer{
+    display: flex;
+    justify-content: center;
+}
+.CabinaValoracionesSubTitle{
+    border-bottom: #009FE3 solid 4px;
+    width: 70%;
+    text-align: center;
+   
+}
+.CabinaValoracionesCarruselContainer{
+    margin-top: 10em;
+}
+#MainCabina{
+    background-size: cover !important;
+   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../public/Cabina-Section-pic1.jpg");
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#MainPlataforma{
+    background-size: cover !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../public/Plataforma360-Section-pic1.jpg");
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  /* Otros estilos para el contenedor */
+}
+.cabina{
+    margin-top: 0;
+    padding-top: 0;
+}
+.cabinaDescriptionImgContainer{
+    width: 50%;
+    margin-left: 8em;
+    margin-top: 10em;
+}
+.cabinaDescription{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cabinaDescriptionImg{
+    width: 100%;
+    border-radius: 50px;
+}
+.cabinaDescriptionUlContainer{
+    width: 50%;
+ 
+
+}
+.cabinaDescriptionUl{
+    list-style: none;
+
+}
+.cabinaDescriptionLi{
+    width: 70%;
+    color: rgb(197, 184, 184);
+    margin-top: 2em;
+    font-size: 25px;
+}
+.lititle{
+    color: white;
+    font-weight: 900;
+}
+.CabinaValoracionesSubTitleContainer{
+   width: 100%;
+   display: flex;
+   flex-direction: column; 
+}
+.reservaSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 8em;
+    
+}
+.reservaContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.445);
+    margin-top: 4em;
+    padding-bottom: 2em;
+}
+
+.resevaTitle{
+    color: white;
+    font-weight: 300;
+    font-size: 135px;
+}
+
+.reservaDesc{
+    width: 70%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+.fotosSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5em;
+    
+}
+.fotos{
+    width: 400px;
+    height: 300px;
+    border-radius: 2em;
+    margin: 2em;
+}
+
+/* Estilos plataforma  */
+
+
+.title360{
+    font-family: "Montserrat";
+    
+
+}
+
+.forma360{
+    color: #009FE3;
+}
+
+@media only screen and (max-width: 768px) {
+    #cabinaTitle{
+        font-size: 40px;
+        margin-top: 150px;
+        margin-left: 50px !important;
+    }
+    .CabinaValoracionesSubTitle {
+        width: 90%;
+        font-size: 40px;
+        margin-top: 0;
+    }
+
+    .CabinaSubtitle{
+        font-size: 40px;
+        margin-top: 80px;
+    }
+    .CabinaValoracionesSubTitleContainer {
+        margin-top: 3em;
+    }
+ 
+    .cabinaDescription{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    } 
+    .cabinaDescriptionImgContainer {
+        width: 90%;
+        margin-left: 0;
+        margin-top: 5em;
+    }
+    .cabinaDescriptionUlContainer{
+        width: 100% !important;
+    }
+    .cabinaDescriptionLi {
+        font-size: 18px;
+    }
+
+    .CabinaValoracionesCarruselContainer{
+        margin-top: 5em;
+    }
+
+    .resevaTitle {
+        font-size: 75px;
+    }
+
+    .reservaDesc {
+        font-size: 18px;
+        margin-bottom: 1em;
+        margin-top: 0.5em;
+    }
+
+    .fotos {
+        margin: 1em;
+    }
+}

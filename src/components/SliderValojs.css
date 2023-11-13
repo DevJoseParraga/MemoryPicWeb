@@ -1,0 +1,186 @@
+.pSlider{
+    color: white;
+}
+
+/* styles.css */
+/* 
+.cards-container {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin: 8px;
+    text-align: center;
+  } */
+
+  .cards-container{
+    display: flex;
+    align-items: center;
+   
+  }
+  .carta{
+    background-color: black;
+    width: 35%; /* Ajustar el ancho de cada carta */
+    margin: 0 2%; /* Agregar márgenes entre las cartas */
+    flex: 0 0 30%; /* Cambio resaltado */
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  
+  /* Estilo para los botones de navegación */
+  .slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+
+  
+  /* .slider-container {
+    text-align: center;
+  }
+  
+  .slider {
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+   */
+  /* Add animation for sliding effect */
+  .slider div {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  
+  .slider {
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+    position: relative;
+  }
+  
+  /* Estilo para los botones de navegación */
+  .slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+ 
+    border: none;
+   
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+
+  
+
+  
+  /* Estilo para los botones de navegación */
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  
+
+
+  .slider-container {
+  text-align: center;
+  position: relative;
+}
+
+
+
+/* Estilo para los botones de navegación */
+.slider-btn {
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Mover botón de retroceso a la izquierda */
+.slider-btn.prev {
+  left: 0;
+  margin-right: 10px; /* Cambio resaltado */
+}
+
+/* Mover botón de avance a la derecha */
+.slider-btn.next {
+  right: 0;
+  margin-left: 10px; /* Cambio resaltado */
+}
+
+.prevArrow{
+    margin-left: 6em;
+}
+
+.nextArrow{
+    margin-right: 6em;
+}
+
+.cardImg{
+    width: 6em;
+}
+.cardTitle{
+    color: #009FE3;
+    margin-top: 5px;
+}
+
+.cardDesc{
+    width: 60%;
+    color: rgb(197, 184, 184);
+    font-size: 20px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .cards-container {
+      flex-direction: column;
+      align-items: stretch;
+  }
+
+  .carta {
+      width: 100%;
+      margin: 10px 0;
+  }
+
+  .cardDesc {
+      width: 100%;
+  }
+
+  .prevArrow,
+  .nextArrow {
+    display: none;
+      margin: 0;
+  }
+  .slider-container{
+    margin: 0;
+  }
+  .slider-btn {
+      font-size: 16px;
+  }
+}
