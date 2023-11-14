@@ -151,7 +151,6 @@
     font-family: 'CocogoosePro';
     font-size: 60px;
     align-self: center;
-    
     margin-bottom: 50px;
     align-self: center;
     text-align: center;
@@ -178,6 +177,11 @@
 }
 
 @media screen and (max-width: 768px){
+    #cabinaTitle1{
+        font-size: 40px;
+        margin-top: 40px;
+        margin-left: 2px !important;
+    }
     #cabinaTitle{
         font-size: 40px;
         margin-top: 150px;
@@ -189,7 +193,7 @@
         margin-top: 0;
     }
 
-    .CabinaSubtitle{
+    .CabinaSubtitle,.galeria{
         font-size: 30px;
         margin-top: 80px;
     }
@@ -237,7 +241,11 @@
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1440px) {
-  
+    #cabinaTitle1{
+        font-size: 40px;
+        margin-top: 40px;
+        margin-left: 50px !important;
+    }
     #cabinaTitle{
         font-size: 60px;
         margin-top: 150px;
@@ -249,7 +257,7 @@
         margin-top: 0;
     }
 
-    .CabinaSubtitle{
+    .CabinaSubtitle,.galeria{
         font-size: 40px;
         margin-top: 80px;
     }
@@ -305,6 +313,11 @@
 }
 
 @media screen and (min-width: 770px) and (max-width: 1200px) {
+    #cabinaTitle1{
+        font-size: 40px;
+        margin-top: 40px;
+        margin-left: 50px !important;
+    }
     #cabinaTitle{
         font-size: 60px;
         margin-top: 150px;
@@ -316,7 +329,7 @@
         margin-top: 0;
     }
 
-    .CabinaSubtitle{
+    .CabinaSubtitle,.galeria{
         font-size: 40px;
         margin-top: 80px;
     }

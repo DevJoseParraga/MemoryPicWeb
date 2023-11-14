@@ -112,7 +112,7 @@ function Cabina() {
               </div>
             </section>
             <h3 className='galeria'>
-            Conoce nuestras cabinas de fotos
+            Conoce nuestra cabinas de fotos
             </h3>
             <section className='fotosSection'>
               <div className='fotosContainer1'>
