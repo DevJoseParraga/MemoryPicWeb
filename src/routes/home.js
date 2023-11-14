@@ -4,7 +4,7 @@ import Footer from '../components/footer';
 import Button from '../components/Button'
 import ContactButton from '../components/contact-button';
 import ReactGA from "react-ga4";
-
+import {encodedWppMessage}  from "../components/constants.js"
 import './home.css';
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <Fragment>
       <Header isHome={true} title={<span>Todo se guarda en la <span id='memoria'>memoria</span></span>} backgroundImage={'header-pic.jpg'} subtittle='Buscamos que nuestros clientes, se lleven un momento único e inolvidable.' />
-      <ContactButton />
+      <ContactButton wpp={encodedWppMessage }/>
       <main id='homeMain'>
         <div id='conocenosBannerHome'>
           <h2>¿Por qué Memory Pic?</h2>

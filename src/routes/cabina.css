@@ -5,7 +5,7 @@
     /* #009FE3  */
 }
 
-#cabinaTitle{
+#cabinaTitle1{
     color: white;
     font-family: 'CocogoosePro';
     font-size: 85px;
@@ -146,10 +146,27 @@
     border-radius: 2em;
     margin: 2em;
 }
-
+.galeria{
+    color: white;
+    font-family: 'CocogoosePro';
+    font-size: 60px;
+    align-self: center;
+    
+    margin-bottom: 50px;
+    align-self: center;
+    text-align: center;
+}
 /* Estilos plataforma  */
 
-
+#plataformaTitle1{
+    color: white;
+    font-family: 'CocogoosePro';
+    font-size: 85px;
+    margin-top: 235px;
+    margin-bottom: 0px;
+    margin-left: 4em;
+    align-items: center;
+}
 .title360{
     font-family: "Montserrat";
     

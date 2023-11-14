@@ -1,10 +1,9 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types';
 import ReactGA from "react-ga4";
-
-import { encodedWppMessage } from './constants';
 import './contact-button.css'
-const ContactButton = () => {
+const ContactButton = ({wpp}) => {
 
     return (
         <Fragment>
@@ -20,7 +19,7 @@ const ContactButton = () => {
                 id="wppContactButton"
                 target="_blank"
                 rel="noopener noreferrer"
-                to={`https://api.whatsapp.com/send?phone=5491154861232&text=${encodedWppMessage}`}
+                to={`https://api.whatsapp.com/send?phone=5491154861232&text=${wpp}`}
             >
                 <img src="./wpp.png" alt="" />
                 <span>¡Contactate!</span>
@@ -28,5 +27,9 @@ const ContactButton = () => {
         </Fragment>
     );
 }
-
+ContactButton.propTypes = {
+    wpp: PropTypes.string.isRequired, // Ajusta el tipo según lo que esperes para 'wpp'
+    otherProp: PropTypes.any, // Ajusta según el tipo de otherProp
+    // Agrega otras propiedades según sea necesario
+  };
 export default ContactButton;

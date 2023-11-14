@@ -4,6 +4,7 @@ import ContactButton from '../components/contact-button'
 import Footer from '../components/footer'
 import SliderValojs from '../components/SliderValojs'
 import Button from '../components/Button'
+import { encodedWppMessagePlataforma } from "../components/constants.js"
 import "./cabina.css"
 function Plataforma() {
   const data =  [
@@ -47,8 +48,8 @@ function Plataforma() {
   return (
     <div>
       <span></span>
-       <Header title={<span>Plata<span className='forma360'>forma</span> <br></br><span className='title360'>360°</span></span>} isHome={false} backgroundImage={'header-cabina-pic.jpg'} />
-          <ContactButton/>
+       <Header title={<h1 id='plataformaTitle1' >Plata<span className='forma360'>forma</span> <br></br><span className='title360'>360°</span></h1>} isHome={false} backgroundImage={'header-cabina-pic.jpg'} />
+          <ContactButton wpp={encodedWppMessagePlataforma}/>
           <main id='MainPlataforma'>
           <section className='Cabina'>
             <div className='cabinaSubtitleContainer'>
@@ -56,24 +57,26 @@ function Plataforma() {
             </div>
             <div className='cabinaDescription'>
               <div className='cabinaDescriptionImgContainer'>
-                <img className='cabinaDescriptionImg' src='./Galeria 4.jpg' alt='Foto Cabina inflable'></img>
+                <img className='cabinaDescriptionImg' src='./Galeria 4.jpg' alt='Foto plataforma360'></img>
               </div>
               <div className='cabinaDescriptionUlContainer'>
                 <ul className='cabinaDescriptionUl'>
                   <li className='cabinaDescriptionLi'>
+                    <h3>
                     Todo lo que necesitas para lograr videos que hagan alucinar a todos:
+                    </h3>
                   </li>
                   <li className='cabinaDescriptionLi'>
-                    <span className='lititle'>
+                    <h3 className='lititle'>
                      Girar sin parar
-                    </span>
+                    </h3>
                     <br></br>
                     Subite a nuestra plataforma y gira en todas direcciones. Es como tener un escenario que se adapta a vos y tus ideas. ¡Las posibilidades son infinitas!
                   </li>
                   <li className='cabinaDescriptionLi'>
-                    <span className='lititle'>
+                    <h3 className='lititle'>
                       Videos de alto impacto
-                    </span>
+                    </h3>
                     <br></br>
                     Loa videos que logres con nuesyta Plataformma 360° van a ser como un golpe de efecto. Impactantes y sorprendentes, listos para conquistar TikTok.
                   </li>
@@ -84,9 +87,9 @@ function Plataforma() {
             </section>
             <section className='CabinaValoraciones'>
               <div className='CabinaValoracionesSubTitleContainer'>
-                <h3 className='CabinaValoracionesSubTitle'>
+                <h2 className='CabinaValoracionesSubTitle'>
                   Lo que Dicen de nosotros
-                </h3>
+                </h2>
                 <div className='CabinaValoracionesCarruselContainer'>
                   <SliderValojs cards={data}></SliderValojs>
                 </div>
@@ -94,30 +97,31 @@ function Plataforma() {
             </section>
             <section className='reservaSection'>
               <div className='reservaContainer'>
-                <h4 className='resevaTitle'>
+                <h3 className='resevaTitle'>
                   RESERVA
-                </h4>
+                </h3>
                 <p className='reservaDesc'>
-                  Si estas buscando la forma mas cipada de darle un giro inesperado a tus  fotos, ¡llegaste al lugar indicado! Nuestra plataforma360° es como un torbellino de creatividad que vana hcaer que tus imagenes se destaquen del resto 
+                Si estás buscando la forma más copada de darle un giro inesperado a tus fotos, ¡llegaste al lugar indicado! Nuestra plataforma 360° es como un torbellino de creatividad que va a hacer que tus imágenes se destaquen del resto.
+
                 </p>
                 <Button label='Contactanos' to='/contacto' />
               </div>
             </section>
             <section className='fotosSection'>
                  <div className='fotosContainer1'>
-                <img className='fotosImg1 fotos' src='./DSC_0111.jpg'></img>
-                <img className='fotosImg1 fotos' src='./DSC_0123.jpg'></img>
-                <img className='fotosImg1 fotos fotosNone' src='./_DSC3430.jpg'></img>
+                <img className='fotosImg1 fotos' src='./DSC_0111.jpg' alt='foto'></img>
+                <img className='fotosImg1 fotos' src='./DSC_0123.jpg' alt='foto'></img>
+                <img className='fotosImg1 fotos fotosNone' src='./_DSC3430.jpg' alt='foto'></img>
               </div>
               <div className='fotosContainer2'>
-                <img className='fotosImg2 fotos' src='./IMG_0834.jpg'></img>
-                <img className='fotosImg2 fotos' src='./IMG_3747.jpg'></img>
-                <img className='fotosImg2 fotos fotosNone' src='./IMG_7481.jpg'></img>
+                <img className='fotosImg2 fotos' src='./IMG_0834.jpg' alt='foto'></img>
+                <img className='fotosImg2 fotos' src='./IMG_3747.jpg' alt='foto'></img>
+                <img className='fotosImg2 fotos fotosNone' src='./IMG_7481.jpg' alt='foto'></img>
               </div>
               <div className='fotosContainer3'>
-                <img className='fotosImg3 fotos' src='./DSC_0123.jpg'></img>
-                <img className='fotosImg3 fotos' src='./DSC_0111.jpg'></img>
-                <img className='fotosImg3 fotos fotosNone' src='./IMG_0834.jpg'></img>
+                <img className='fotosImg3 fotos' src='./DSC_0123.jpg' alt='foto'></img>
+                <img className='fotosImg3 fotos' src='./DSC_0111.jpg'alt='foto'></img>
+                <img className='fotosImg3 fotos fotosNone' src='./IMG_0834.jpg' alt='foto'></img>
               </div>
             </section>
         </main>

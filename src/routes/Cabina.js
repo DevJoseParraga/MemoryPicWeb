@@ -5,6 +5,7 @@ import Footer from '../components/footer'
 import SliderValojs from '../components/SliderValojs'
 import Button from '../components/Button'
 import "./cabina.css"
+import {encodedWppMessageCabina} from "../components/constants.js"
   const data =  [
     {
         id: "1",
@@ -48,8 +49,8 @@ function Cabina() {
   return (
     <div>
       
-        <Header title={<span id='cabinaTitle1'> CABINA <br></br> INFLABLE <br></br> DE <span id='cabinaFoto'> FOTOS  </span></span>} isHome={false} backgroundImage={'header-cabina-pic.jpg'} />
-          <ContactButton/>
+        <Header title={<h1 id='cabinaTitle1'> CABINA <br></br> INFLABLE <br></br> DE <span id='cabinaFoto'> FOTOS  </span></h1>} isHome={false} backgroundImage={'header-cabina-pic.jpg'} />
+          <ContactButton wpp={encodedWppMessageCabina}/>
         <main id='MainCabina'>
           <section className='Cabina'>
             <div className='cabinaSubtitleContainer'>
@@ -62,28 +63,28 @@ function Cabina() {
               <div className='cabinaDescriptionUlContainer'>
                 <ul className='cabinaDescriptionUl'>
                   <li className='cabinaDescriptionLi liOne'>
-                    Todo lo que necesitas para sacar fotos que se conviertan en recuerdos imborrables:
+                    Todo lo que necesitas saber para guardar los recuerdos de tue evento dentro de nuestra cabina de fotos :
                   </li>
                   <li className='cabinaDescriptionLi'>
-                    <span className='lititle'>
-                      Cabina espaciosa
-                    </span>
+                    <h3 className='lititle'>
+                      Cabina espaciosa 
+                    </h3>
                     <br></br>
-                    nuestar cabina es amplia, comoda y tiene espacio hasta para 6 personas. invita a tus amigos, familiares y entra para divertirte como nunca
+                    En nuestra cabina de fotos, todos tus recuerdos son ilimitados, vas a poder imprimir la cantidad de fotos que quieras, y lo mejor es que las copias tambien son ilimitadas!
                   </li>
                   <li className='cabinaDescriptionLi'>
-                    <span className='lititle'>
-                      Impreciones al toque
-                    </span>
+                    <h3 className='lititle'>
+                      Operación fácil: 
+                    </h3>
                     <br></br>
-                    En cuestion de segundos, tendras tus fotos en las manos, y si, las impresiones son de alta calidad, ¡vas a querer enmarcarlas!
+                    Con tan solo un click vas a poder detener el tiempo y guardar tus recuerdos en nuestra cabina de fotos.
                   </li>
                   <li className='cabinaDescriptionLi'>
-                    <span className='lititle'>
-                      Operacion facil
-                    </span>
+                    <h3 className='lititle'>
+                      Servicios adicionales:
+                    </h3>
                     <br></br>
-                    Nuestra cabina es tan facil de usar que hasta la nonna se va animar. Solo entra, posa y listo,¡tus fotos se imprimen como por arte de amgia!
+                    Podes sumarle un detalle más a tus fotos y hacer que sean imanes para que tus recuerdos sean mucho más entretenidos.
                   </li>
                 </ul>
               </div>
@@ -91,9 +92,9 @@ function Cabina() {
             </section>
             <section className='CabinaValoraciones'>
               <div className='CabinaValoracionesSubTitleContainer'>
-                <h3 className='CabinaValoracionesSubTitle'>
+                <h2 className='CabinaValoracionesSubTitle'>
                   Lo que Dicen de nosotros
-                </h3>
+                </h2>
                 <div className='CabinaValoracionesCarruselContainer'>
                   <SliderValojs cards={data}></SliderValojs>
                 </div>
@@ -101,30 +102,33 @@ function Cabina() {
             </section>
             <section className='reservaSection'>
               <div className='reservaContainer'>
-                <h4 className='resevaTitle'>
+                <h3 className='resevaTitle'>
                   RESERVA
-                </h4>
+                </h3>
                 <p className='reservaDesc'>
-                  ¿estas organizando un evento que necesita un toque de diversion,¡Tenemos la soluion para vos!
+                ¿Estás organizando un evento y querés tener un detalle único? ¡Tenemos la solución para vos!
                 </p>
                 <Button label='Contactanos' to='/contacto' />
               </div>
             </section>
+            <h3 className='galeria'>
+            Conoce nuestras cabinas de fotos
+            </h3>
             <section className='fotosSection'>
               <div className='fotosContainer1'>
-                <img className='fotosImg1 fotos' src='./DSC_0111.jpg'></img>
-                <img className='fotosImg1 fotos' src='./DSC_0123.jpg'></img>
-                <img className='fotosImg1 fotosNone fotos' src='./_DSC3430.jpg'></img>
+                <img className='fotosImg1 fotos' src='./DSC_0111.jpg' alt='foto'></img>
+                <img className='fotosImg1 fotos' src='./DSC_0123.jpg' alt='foto'></img>
+                <img className='fotosImg1 fotosNone fotos' src='./_DSC3430.jpg' alt='foto'></img>
               </div>
               <div className='fotosContainer2'>
-                <img className='fotosImg2 fotos' src='./IMG_0834.jpg'></img>
-                <img className='fotosImg2 fotos' src='./IMG_3747.jpg'></img>
-                <img className='fotosImg2 fotosNone fotos' src='./IMG_7481.jpg'></img>
+                <img className='fotosImg2 fotos' src='./IMG_0834.jpg' alt='foto'></img>
+                <img className='fotosImg2 fotos' src='./IMG_3747.jpg' alt='foto'></img>
+                <img className='fotosImg2 fotosNone fotos' src='./IMG_7481.jpg' alt='foto'></img>
               </div>
               <div className='fotosContainer3'>
-                <img className='fotosImg3 fotos' src='./DSC_0123.jpg'></img>
-                <img className='fotosImg3 fotos' src='./DSC_0111.jpg'></img>
-                <img className='fotosImg3 fotosNone fotos' src='./IMG_0834.jpg'></img>
+                <img className='fotosImg3 fotos' src='./DSC_0123.jpg' alt='foto'></img>
+                <img className='fotosImg3 fotos' src='./DSC_0111.jpg' alt='foto'></img>
+                <img className='fotosImg3   fotos' src='./IMG_0834.jpg' alt='foto'></img>
               </div>
             </section>
         </main>
