@@ -114,9 +114,9 @@ function Plataforma() {
                 <img className='fotosImg1 fotos fotosNone' src='./_DSC3430.jpg' alt='foto'></img>
               </div>
               <div className='fotosContainer2'>
-                <img className='fotosImg2 fotos' src='./IMG_0834.jpg' alt='foto'></img>
-                <img className='fotosImg2 fotos' src='./IMG_3747.jpg' alt='foto'></img>
-                <img className='fotosImg2 fotos fotosNone' src='./IMG_7481.jpg' alt='foto'></img>
+                <img className='fotosImg2 fotos' src='./IMG_2856.jpg' alt='foto'></img>
+                <img className='fotosImg2 fotos' src='./IMG_2857.jpg' alt='foto'></img>
+                <img className='fotosImg2 fotosNone fotos' src='./C20B419A-657B-4465-A321-391DCF0D9828.jpg' alt='foto'></img>
               </div>
               <div className='fotosContainer3'>
                 <img className='fotosImg3 fotos' src='./DSC_0123.jpg' alt='foto'></img>
