@@ -61,7 +61,7 @@ function Cabina() {
               </div>
               <div className='cabinaDescriptionUlContainer'>
                 <ul className='cabinaDescriptionUl'>
-                  <li className='cabinaDescriptionLi'>
+                  <li className='cabinaDescriptionLi liOne'>
                     Todo lo que necesitas para sacar fotos que se conviertan en recuerdos imborrables:
                   </li>
                   <li className='cabinaDescriptionLi'>
@@ -114,17 +114,17 @@ function Cabina() {
               <div className='fotosContainer1'>
                 <img className='fotosImg1 fotos' src='./DSC_0111.jpg'></img>
                 <img className='fotosImg1 fotos' src='./DSC_0123.jpg'></img>
-                <img className='fotosImg1 fotos' src='./_DSC3430.jpg'></img>
+                <img className='fotosImg1 fotosNone fotos' src='./_DSC3430.jpg'></img>
               </div>
               <div className='fotosContainer2'>
                 <img className='fotosImg2 fotos' src='./IMG_0834.jpg'></img>
                 <img className='fotosImg2 fotos' src='./IMG_3747.jpg'></img>
-                <img className='fotosImg2 fotos' src='./IMG_7481.jpg'></img>
+                <img className='fotosImg2 fotosNone fotos' src='./IMG_7481.jpg'></img>
               </div>
               <div className='fotosContainer3'>
                 <img className='fotosImg3 fotos' src='./DSC_0123.jpg'></img>
                 <img className='fotosImg3 fotos' src='./DSC_0111.jpg'></img>
-                <img className='fotosImg3 fotos' src='./IMG_0834.jpg'></img>
+                <img className='fotosImg3 fotosNone fotos' src='./IMG_0834.jpg'></img>
               </div>
             </section>
         </main>
