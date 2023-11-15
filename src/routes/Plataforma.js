@@ -10,39 +10,39 @@ function Plataforma() {
   const data =  [
     {
         id: "1",
-        title:"Sebastian",
-        desc: "Excelente servicio los invitados quedaron muy conformes!",
-        img:"./Perfil testimonio 1.png"
+        title:"Ana",
+        desc: "Excelente servicio los invitados y nosotros quedamos muy conformes!",
+        fecha:"15/10/2023"
       },
       {
         id: "2",
-        title:"Matias",
+        title:"Maricruz",
         desc: "Excelente predisposición de los chicos, su excelente servicio y la gran experiencia.",
-        img:"./Perfil testimonio 2.png"
+        fecha:"15/10/2023"
       },
       {
         id: "3",
-        title:"micaela",
+        title:"Nahuel Garcia",
         desc: "Nos encantó todo el servicio en general. No podemos quejarnos.",
-        img:"./Perfil testimonio 3.png"
+        fecha:"20/10/2023"
       },   
     {
         id: "4",
-        title:"carlos",
-        desc: "La predisposición, buena onda , y que se quedaron más de lo acordado",
-        img:"./Perfil testimonio 1.png"
+        title:"Alejandra",
+        desc: "La predisposición, buena onda, y que se quedaron más de lo acordado",
+        fecha:"27/10/2023"
       },
       {
         id: "5",
-        title:"Ramiro",
+        title:"valentina",
         desc: "Me gusto la practicidad de la cabina, poder llevarnos el recuerdo.",
-        img:"./Perfil testimonio 2.png"
+        fecha:"30/10/2023"
       },
       {
         id: "6",
-        title:"Carla",
-        desc: "Nos encantó todo el servicio en general, una locura",
-        img:"./Perfil testimonio 3.png"
+        title:"Maricruz",
+        desc: "Excelente predisposición de los chicos, su excelente servicio y la gran experiencia.",
+        fecha:"15/10/2023"
       },
     ]
   return (
