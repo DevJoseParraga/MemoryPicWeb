@@ -6,9 +6,9 @@ const Cards = ({ cards }) => {
     <div className='cards-container'>
       {cards.map(card => (
         <div key={card.id} className="carta">
-          <img className='cardImg' src={card.img}></img>
           <h2 className='cardTitle'>{card.title}</h2>
           <p className='cardDesc'>{card.desc}</p>
+          <p className='cardDesc'>{card.fecha}</p>
         </div>
       ))}
     </div>
@@ -21,7 +21,7 @@ Cards.propTypes = {
       id: PropTypes.string.isRequired,
       title: PropTypes.string.isRequired,
       desc: PropTypes.string.isRequired,
-      img: PropTypes.string.isRequired,
+      fecha: PropTypes.string.isRequired,
     })
   ).isRequired,
 };

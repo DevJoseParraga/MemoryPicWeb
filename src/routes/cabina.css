@@ -120,8 +120,10 @@
 
 .resevaTitle{
     color: white;
+    font-family: 'CocogoosePro';
     font-weight: 300;
     font-size: 135px;
+    margin-top: .5em;
 }
 
 .reservaDesc{
