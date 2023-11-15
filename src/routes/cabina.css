@@ -63,7 +63,7 @@
 .cabinaDescriptionImgContainer{
     width: 50%;
     margin-left: 8em;
-    margin-top: 6em;
+    
 }
 .cabinaDescription{
     width: 100%;
@@ -88,8 +88,10 @@
     width: 70%;
     color: rgb(197, 184, 184);
     margin-top: 2em;
-    font-size: 25px;
+    font-size: 20px;
+    margin-top: 10%;
 }
+
 .lititle{
     color: white;
     font-weight: 900;

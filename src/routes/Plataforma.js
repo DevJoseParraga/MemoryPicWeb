@@ -97,10 +97,10 @@ function Plataforma() {
             <section className='reservaSection'>
               <div className='reservaContainer'>
                 <h3 className='resevaTitle'>
-                  RESERVA
+                  Reserva
                 </h3>
                 <p className='reservaDesc'>
-                Si estás buscando la forma más copada de darle un giro inesperado a tus fotos, ¡llegaste al lugar indicado! Nuestra plataforma 360° es como un torbellino de creatividad que va a hacer que tus imágenes se destaquen del resto.
+                Si estás buscando la manera más emocionante de darle un giro inesperado a tus fotos, ¡has llegado al lugar indicado! Nuestra plataforma 360° es como un torbellino de creatividad que hará que tus imágenes destaquen del resto.
 
                 </p>
                 <Button label='Contactanos' to='/contacto' />

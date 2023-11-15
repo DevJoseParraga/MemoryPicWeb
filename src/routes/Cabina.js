@@ -70,6 +70,13 @@ function Cabina() {
                       Cabina espaciosa 
                     </h3>
                     <br></br>
+                    La cabina mide 2,5 x 2,5mts, es amplia y cómoda entran hasta 12 personas. Todos tus invitados van a poder participar de tus recuerdos.
+                  </li>
+                  <li className='cabinaDescriptionLi'>
+                    <h3 className='lititle'>
+                    Impresiones Ilimitadas:  
+                    </h3>
+                    <br></br>
                     En nuestra cabina de fotos, todos tus recuerdos son ilimitados, vas a poder imprimir la cantidad de fotos que quieras, y lo mejor es que las copias tambien son ilimitadas!
                   </li>
                   <li className='cabinaDescriptionLi'>
@@ -103,7 +110,7 @@ function Cabina() {
             <section className='reservaSection'>
               <div className='reservaContainer'>
                 <h3 className='resevaTitle'>
-                  RESERVA
+                  Reserva
                 </h3>
                 <p className='reservaDesc'>
                 ¿Estás organizando un evento y querés tener un detalle único? ¡Tenemos la solución para vos!
@@ -112,7 +119,7 @@ function Cabina() {
               </div>
             </section>
             <h3 className='galeria'>
-            Conoce nuestra cabinas de fotos
+              Conoce nuestra cabinas de fotos
             </h3>
             <section className='fotosSection'>
             <div className='fotosContainer1'>
