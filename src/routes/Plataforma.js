@@ -47,7 +47,6 @@ function Plataforma() {
     ]
   return (
     <div>
-      <span></span>
        <Header title={<span id='plataformaTitle1' >Plata<span className='forma360'>forma</span> <br></br><span className='title360'>360°</span></span>} isHome={false} backgroundImage={'header-cabina-pic.jpg'} />
           <ContactButton wpp={encodedWppMessagePlataforma}/>
           <main id='MainPlataforma'>
