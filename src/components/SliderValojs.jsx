@@ -50,15 +50,15 @@ const SliderValo = ({ cards }) => {
         </div>
       );
     };
-SliderValo.propTypes = {
-  cards: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.string.isRequired,
-      title: PropTypes.string.isRequired,
-      desc: PropTypes.string.isRequired,
-      img: PropTypes.string.isRequired,
-    })
-  ).isRequired,
-};
-
+    SliderValo.propTypes = {
+      cards: PropTypes.arrayOf(
+        PropTypes.shape({
+          id: PropTypes.string.isRequired,
+          title: PropTypes.string.isRequired,
+          desc: PropTypes.string.isRequired,
+          fecha: PropTypes.string.isRequired,
+        })
+      ).isRequired,
+    };
+    
 export default SliderValo;

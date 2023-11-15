@@ -48,7 +48,7 @@ function Plataforma() {
   return (
     <div>
       <span></span>
-       <Header title={<h1 id='plataformaTitle1' >Plata<span className='forma360'>forma</span> <br></br><span className='title360'>360°</span></h1>} isHome={false} backgroundImage={'header-cabina-pic.jpg'} />
+       <Header title={<span id='plataformaTitle1' >Plata<span className='forma360'>forma</span> <br></br><span className='title360'>360°</span></span>} isHome={false} backgroundImage={'header-cabina-pic.jpg'} />
           <ContactButton wpp={encodedWppMessagePlataforma}/>
           <main id='MainPlataforma'>
           <section className='Cabina'>
@@ -110,17 +110,17 @@ function Plataforma() {
             <section className='fotosSection'>
                  <div className='fotosContainer1'>
                 <img className='fotosImg1 fotos' src='./DSC_0111.jpg' alt='foto'></img>
-                <img className='fotosImg1 fotos' src='./DSC_0123.jpg' alt='foto'></img>
+                <img className='fotosImg1 fotos' src='./IMG_2821.jpg' alt='foto'></img>
                 <img className='fotosImg1 fotos fotosNone' src='./_DSC3430.jpg' alt='foto'></img>
               </div>
               <div className='fotosContainer2'>
-                <img className='fotosImg2 fotos' src='./IMG_2856.jpg' alt='foto'></img>
                 <img className='fotosImg2 fotos' src='./IMG_2857.jpg' alt='foto'></img>
+                <img className='fotosImg2 fotos' src='./IMG_2856.jpg' alt='foto'></img>
                 <img className='fotosImg2 fotosNone fotos' src='./C20B419A-657B-4465-A321-391DCF0D9828.jpg' alt='foto'></img>
               </div>
               <div className='fotosContainer3'>
-                <img className='fotosImg3 fotos' src='./DSC_0123.jpg' alt='foto'></img>
-                <img className='fotosImg3 fotos' src='./DSC_0111.jpg'alt='foto'></img>
+                <img className='fotosImg3 fotos' src='./IMG_2889.jpg' alt='foto'></img>
+                <img className='fotosImg3 fotos' src='./DSC_0123.jpg'alt='foto'></img>
                 <img className='fotosImg3 fotos fotosNone' src='./IMG_0834.jpg' alt='foto'></img>
               </div>
             </section>

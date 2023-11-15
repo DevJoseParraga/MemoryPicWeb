@@ -5,7 +5,7 @@
     /* #009FE3  */
 }
 
-#cabinaTitle1{
+#cabinaTitle{
     color: white;
     font-family: 'CocogoosePro';
     font-size: 85px;
@@ -179,11 +179,11 @@
 }
 
 @media screen and (max-width: 768px){
-    #cabinaTitle1{
+    /* #cabinaTitle1{
         font-size: 40px;
         margin-top: 40px;
         margin-left: 2px !important;
-    }
+    } */
     #cabinaTitle{
         font-size: 40px;
         margin-top: 150px;
@@ -243,11 +243,11 @@
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1440px) {
-    #cabinaTitle1{
+    /* #cabinaTitle1{
         font-size: 40px;
         margin-top: 40px;
         margin-left: 50px !important;
-    }
+    } */
     #cabinaTitle{
         font-size: 60px;
         margin-top: 150px;
@@ -315,11 +315,11 @@
 }
 
 @media screen and (min-width: 770px) and (max-width: 1200px) {
-    #cabinaTitle1{
+    /* #cabinaTitle1{
         font-size: 40px;
         margin-top: 40px;
         margin-left: 50px !important;
-    }
+    } */
     #cabinaTitle{
         font-size: 60px;
         margin-top: 150px;
