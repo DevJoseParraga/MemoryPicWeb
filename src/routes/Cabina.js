@@ -48,7 +48,7 @@ import {encodedWppMessageCabina} from "../components/constants.js"
 function Cabina() {
   return (
     <div>
-      
+      Todo lo que necesitas saber para guardar los recuerdos de tue evento dentro de nuestra cabina de fotos :
         <Header title={<span id='cabinaTitle1'> CABINA <br></br> INFLABLE <br></br> DE <span id='cabinaFoto'> FOTOS  </span></span>} isHome={false} backgroundImage={'header-cabina-pic.jpg'} />
           <ContactButton wpp={encodedWppMessageCabina}/>
         <main id='MainCabina'>
@@ -56,15 +56,16 @@ function Cabina() {
             <div className='cabinaSubtitleContainer'>
               <h2 className='CabinaSubtitle'>¿Que te ofrecemos?</h2>
             </div>
+            <div className='cabinaSubtitleContainer'>
+              <h5 className='CabinaSubtitle2'>Todo lo que necesitas saber para guardar los recuerdos de tue evento dentro de nuestra cabina de fotos :</h5>
+            </div>
             <div className='cabinaDescription'>
               <div className='cabinaDescriptionImgContainer'>
                 <img className='cabinaDescriptionImg' src='./Cabina-pic.jpg' alt='Foto Cabina inflable'></img>
               </div>
               <div className='cabinaDescriptionUlContainer'>
                 <ul className='cabinaDescriptionUl'>
-                  <li className='cabinaDescriptionLi liOne'>
-                    Todo lo que necesitas saber para guardar los recuerdos de tue evento dentro de nuestra cabina de fotos :
-                  </li>
+
                   <li className='cabinaDescriptionLi'>
                     <h3 className='lititle'>
                       Cabina espaciosa 
