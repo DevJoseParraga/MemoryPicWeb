@@ -77,8 +77,6 @@
 }
 .cabinaDescriptionUlContainer{
     width: 50%;
- 
-
 }
 .cabinaDescriptionUl{
     list-style: none;
@@ -200,6 +198,11 @@
         font-size: 40px;
         margin-top: 0;
     }
+ 
+    .CabinaSubtitle2{
+        margin-left: 5% !important;
+        font-size: 14px;
+     }
 
     .CabinaSubtitle,.galeria{
         font-size: 30px;
@@ -258,6 +261,11 @@
         font-size: 60px;
         margin-top: 150px;
         margin-left: 10% !important;
+    }
+    .CabinaSubtitle2{
+       
+       font-size: 18px;
+      
     }
     .CabinaValoracionesSubTitle {
         width: 90%;
@@ -331,6 +339,10 @@
         margin-top: 150px;
         margin-left: 10% !important;
     }
+    .CabinaSubtitle2{
+        margin-left: 5% !important;
+        font-size: 18px;
+     }
     .CabinaValoracionesSubTitle {
         width: 90%;
         font-size: 40px;
