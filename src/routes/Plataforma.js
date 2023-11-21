@@ -77,7 +77,7 @@ function Plataforma() {
                       Videos de alto impacto
                     </h3>
                     <br></br>
-                    Loa videos que logres con nuesyta Plataformma 360° van a ser como un golpe de efecto. Impactantes y sorprendentes, listos para conquistar TikTok.
+                    Los videos que logres con nuestra Plataformma 360° van a ser como un golpe de efecto. Impactantes y sorprendentes, listos para conquistar TikTok.
                   </li>
                
                 </ul>
@@ -100,8 +100,7 @@ function Plataforma() {
                   Reserva
                 </h3>
                 <p className='reservaDesc'>
-                Si estás buscando la manera más emocionante de darle un giro inesperado a tus fotos, ¡has llegado al lugar indicado! Nuestra plataforma 360° es como un torbellino de creatividad que hará que tus imágenes destaquen del resto.
-
+                ¿Estás organizando un evento y querés tener un detalle único? ¡Tenemos la solución para vos!
                 </p>
                 <Button label='Contactanos' to='/contacto' />
               </div>
